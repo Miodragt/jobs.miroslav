@@ -1,10 +1,10 @@
 <?php
 
-$lang['email_must_be_array'] = "The email validation method must be passed an array.";
-$lang['email_invalid_address'] = "Invalid email address: %s";
-$lang['email_attachment_missing'] = "Unable to locate the following email attachment: %s";
-$lang['email_attachment_unreadable'] = "Unable to open this attachment: %s";
-$lang['email_no_recipients'] = "You must include recipients: To, Cc, or Bcc";
+$lang['email_must_be_array'] = " Email validacija  mora preci u  niz - The email validation method must be passed an array.";
+$lang['email_invalid_address'] = "Nevalidna email adresa - Invalid email address: %s";
+$lang['email_attachment_missing'] = "Nemoze se locirati dodati fail uz email - Unable to locate the following email attachment: %s";
+$lang['email_attachment_unreadable'] = "Nemoguce je otvoriti  dodati fail - Unable to open this attachment: %s";
+$lang['email_no_recipients'] = "Mozes ukljuciti prijemnike  sa :To, Cc, ili Bcc - You must include recipients: To, Cc, or Bcc";
 $lang['email_send_failure_phpmail'] = "Unable to send email using PHP mail().  Your server might not be configured to send mail using this method.";
 $lang['email_send_failure_sendmail'] = "Unable to send email using PHP Sendmail.  Your server might not be configured to send mail using this method.";
 $lang['email_send_failure_smtp'] = "Unable to send email using PHP SMTP.  Your server might not be configured to send mail using this method.";
